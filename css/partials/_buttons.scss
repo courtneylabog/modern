@@ -1,0 +1,74 @@
+// BUTTONS
+
+.button {
+	border-radius: 25px;
+	font-family: $typogMain;
+	text-align: center;
+}
+
+.button__action {
+	width:130px;
+	background-color: #c506c2;
+	color:$textColorMain;
+}
+
+.button--uppercase{
+	text-transform: uppercase;
+	font-size: 0.5rem;
+}
+
+.button--grey {
+	border:2px solid #F1F1F1;
+	color: $textColorTert;
+}
+
+
+.button--greyFill {
+	background-color: #F1F1F1;
+	color: $textColorTert;
+}
+
+
+.button--accent {
+	width:20px;
+	height: 3px;
+	border-radius: 2.5px;
+	background-color: rgb(209,33,205)
+}
+
+.button--featured {
+	background-color: #FFF;
+	color: #6e30ec;
+}
+
+// ICONS
+
+.iconContainer__medium {
+	display: flex;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.iconContainer__medium img {
+	margin: auto;
+	flex-shrink:0;
+}
+
+.iconContainer__large {
+	background-color: #fff;
+	display: flex;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.iconContainer__large img {
+	margin: auto;
+}
+
+.iconContainer--gradient {
+	background: $gradient;
+}
+
+
